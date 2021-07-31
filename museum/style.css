@@ -1,7 +1,79 @@
-body{
-    margin: 0 auto;
+*{
+    margin: 0;
+    padding: 0;
 }
 section{
     border: 1px solid red;
+}
+body {
+    font-family: 'Forum', cursive;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+.header-logo {
+color:white;
+font-family: 'Forum', cursive;
+display: flex;
+align-items: center;
 
+
+
+}
+.container {
+    background-color: black;
+}
+.img-logo{
+    
+    align-self: center;
+    height: 26px;
+    width: 49px;
+    margin-right: 21px;
+    margin-left: 240px;
+}
+.txt_louvre {
+    display: flex;
+    margin-right: 0;
+    margin-top: 76px;
+    margin-bottom: 74px;
+    margin-left: 0;
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    
+}
+.nav {
+ color: white;
+ font-family: 'Roboto', sans-serif;
+ font-style: normal;
+ font-weight: 100px;
+ font-size: 22px;
+ letter-spacing: 2px;
+ display: flex;
+ justify-content: center;
+ margin: 0;
+margin-left: 525px;
+ width: 618px;
+ justify-content: space-between;
+}
+.black1{
+ max-width: 1920px;
+ height: 750px;
+ background-color: black;
+ display: flex;
+}
+.background_main {
+    width: 1250px;
+    margin-left: 705px;
 }
